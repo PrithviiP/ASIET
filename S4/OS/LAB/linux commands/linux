@@ -88,4 +88,35 @@ student@dl-17:~/prithvi$ ls -f
 ..  ddd  .  ggg
 student@dl-17:~/prithvi$ ls -h
 ddd  ggg
+student@dl-17:~/prithvi$ who$whoami
+student  tty2         2025-01-04 09:52 (tty2)
+
+student@dl-17:~/prithvi$ cat&gt;supran
+[2] 9587
+gt: error: neither tool nor script specified; option -help lists possible tools
+
+[2]+  Stopped                 cat
+supran: command not found
+student@dl-17:~/prithvi$ cat > supran
+Hello supran
+^C
+student@dl-17:~/prithvi$ grep Hello supran
+Hello supran
+student@dl-17:~/prithvi$ rm supran
+student@dl-17:~/prithvi$ touch simplefile
+student@dl-17:~/prithvi$ rm simplefile
+student@dl-17:~/prithvi$ touch simplefile
+student@dl-17:~/prithvi$ mv simplefile RenamedFile
+student@dl-17:~/prithvi$ cut -c 1-4 supran
+cut: supran: No such file or directory
+student@dl-17:~/prithvi$ cut -c 1-4 RenamedFile 
+gjht
+student@dl-17:~/prithvi$ head^C
+student@dl-17:~/prithvi$ head RenamedFile 
+gjhtdxkiiiiiiiiiiiiiiiiiiigghfmddrsxdbfgcAwerdjugc,lk;lcjklhghhhhhhhhhhhhhhhhhhhhhhhh
+student@dl-17:~/prithvi$ tail RenamedFile 
+gjhtdxkiiiiiiiiiiiiiiiiiiigghfmddrsxdbfgcAwerdjugc,lk;lcjklhghhhhhhhhhhhhhhhhhhhhhhhh
+student@dl-17:~/prithvi$ 
+
+
 
